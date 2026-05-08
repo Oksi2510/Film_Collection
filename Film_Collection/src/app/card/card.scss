@@ -1,0 +1,46 @@
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #6a93d4;
+  border-radius: 5%;
+  padding: 10px;
+  max-width: 15rem;
+  background-color: #9f8db5;
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 1px 10px 20px 0px #ad8f6a;
+  }
+}
+.card-bottom {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.img-box {
+  border-radius: 5%;
+  overflow: hidden;
+}
+.img-box img {
+  width: 100%;
+  height: auto;
+}
+.name {
+  font-weight: 600;
+  font-size: 24px;
+}
+.date {
+}
+.genre {
+}
+.rate {
+}
+.favorite-btn {
+  background-color: transparent;
+}

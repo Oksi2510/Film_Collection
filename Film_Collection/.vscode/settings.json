@@ -1,4 +1,7 @@
 {
   "js/ts.tsdk.path": "node_modules/typescript/lib",
-  "js/ts.implicitProjectConfig.checkJs": true
+  "js/ts.implicitProjectConfig.checkJs": true,
+  "cSpell.words": [
+    "prived"
+  ]
 }

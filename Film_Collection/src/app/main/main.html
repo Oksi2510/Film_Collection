@@ -1,0 +1,21 @@
+<div class="main-wrapper">
+  <div class="search">
+    <form class="search-form" action="search-form">
+      <input type="search" placeholder="поиск">
+      <button class="search-btn">Поиск</button>
+    </form>
+  </div>
+  <div class="cards-wrapper">
+    <ul class="list">
+      @for (movie of movies(); track movie.title) {
+      <app-card
+        [posterUrl]="movie.posterUrl" 
+        [title]="movie.title" 
+        [year]="movie.year" 
+        [genre]="movie.genre"
+        [rating]="movie.rating" 
+        [isFavorite]="movie.isFavorite ?? false" />
+      }
+    </ul>
+  </div>
+</div>
